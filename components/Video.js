@@ -431,7 +431,7 @@ class Video extends Component {
   }
 
   render() {
-    if (this.state.renderError) return this.renderError()
+   // if (this.state.renderError) return this.renderError()
     return this.renderPlayer()
   }
 }
